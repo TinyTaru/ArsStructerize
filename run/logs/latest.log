@@ -1,183 +1,50 @@
-[16Nov2025 09:39:10.516] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[16Nov2025 09:39:10.523] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[16Nov2025 09:39:10.672] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[16Nov2025 09:39:11.058] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[16Nov2025 09:39:11.380] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[16Nov2025 09:39:11.586] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Sabien/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[16Nov2025 09:39:11.720] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
-[16Nov2025 09:39:11.918] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[16Nov2025 09:39:11.920] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[16Nov2025 09:39:11.923] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[16Nov2025 09:39:11.927] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[16Nov2025 09:39:12.168] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\6027567_mapped_official_1.20.1\geckolib-388172-6027567_mapped_official_1.20.1.jar
-[16Nov2025 09:39:12.168] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[16Nov2025 09:39:13.745] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Nov2025 09:39:13.757] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[16Nov2025 09:39:14.254] [main/INFO] [mixin/]: Remapping refMap ars_nouveau.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\ars_structerize/build/createSrgToMcp/output.srg
-[16Nov2025 09:39:14.256] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\ars_structerize/build/createSrgToMcp/output.srg
-[16Nov2025 09:39:14.258] [main/INFO] [mixin/]: Remapping refMap patchouli.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\ars_structerize/build/createSrgToMcp/output.srg
-[16Nov2025 09:39:14.259] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\ars_structerize/build/createSrgToMcp/output.srg
-[16Nov2025 09:39:18.363] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 145 milliseconds
-[16Nov2025 09:39:19.985] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[16Nov2025 09:39:19.985] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[16Nov2025 09:39:20.003] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16Nov2025 09:39:20.009] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[16Nov2025 09:39:20.122] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[16Nov2025 09:39:20.402] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[16Nov2025 09:39:20.402] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[16Nov2025 09:39:22.100] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[16Nov2025 09:39:22.375] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[16Nov2025 09:39:22.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[16Nov2025 09:39:22.724] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[16Nov2025 09:39:23.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.0
-[16Nov2025 09:39:23.506] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=1,roof=true'
-[16Nov2025 09:39:23.506] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=0,roof=true'
-[16Nov2025 09:39:23.506] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=3,roof=true'
-[16Nov2025 09:39:23.506] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=10,roof=true'
-[16Nov2025 09:39:23.506] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=11,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=9,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=2,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=7,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=4,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=8,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=14,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=12,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=13,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=13,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=3,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=14,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=11,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=2,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=5,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=15,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=9,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=15,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=6,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=12,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=8,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=0,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=7,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=4,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=5,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=6,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=east,floor=true,level=10,roof=true'
-[16Nov2025 09:39:23.507] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/magelight_torch.json' missing model for variant: 'ars_nouveau:magelight_torch#facing=north,floor=true,level=1,roof=true'
-[16Nov2025 09:39:24.009] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model ars_nouveau:redstone_relay#facing=east,power=8:
-    minecraft:textures/atlas/blocks.png:ars_nouveau:blocks/agronomic_sourcelink
-[16Nov2025 09:39:25.094] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[16Nov2025 09:39:25.095] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[16Nov2025 09:39:25.148] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 27G2G3 (NVIDIA High Definition Audio)
-[16Nov2025 09:39:25.149] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[16Nov2025 09:39:25.286] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[16Nov2025 09:39:25.299] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[16Nov2025 09:39:25.304] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[16Nov2025 09:39:25.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[16Nov2025 09:39:25.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[16Nov2025 09:39:25.307] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[16Nov2025 09:39:25.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[16Nov2025 09:39:25.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[16Nov2025 09:39:25.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16Nov2025 09:39:25.419] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[16Nov2025 09:39:25.469] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[16Nov2025 09:39:25.471] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16Nov2025 09:39:25.471] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16Nov2025 09:39:25.474] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 281 jsons
-[16Nov2025 09:39:25.899] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[16Nov2025 09:39:49.594] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[16Nov2025 09:39:51.498] [Worker-Main-7/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ars_structurize:chests/source_berry_farmloot
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ars_nouveau:sourceberry_stack'
-	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:116) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:115) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:125) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:51) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:39) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:138) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:118) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:83) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:72) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:96) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:383) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:391) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:383) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:400) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:873) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:850) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$5(LootDataManager.java:55) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[16Nov2025 09:39:51.606] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
-[16Nov2025 09:39:51.680] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1585 advancements
-[16Nov2025 09:39:51.687] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[16Nov2025 09:39:51.690] [Render thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[16Nov2025 09:39:52.157] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[16Nov2025 09:39:52.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[16Nov2025 09:39:53.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[16Nov2025 09:39:55.959] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2025 09:39:55.959] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2025 09:39:55.978] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2025 09:39:55.978] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2025 09:39:55.996] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2025 09:39:56.495] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2025 09:39:56.991] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[16Nov2025 09:39:57.214] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[16Nov2025 09:39:57.214] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[16Nov2025 09:39:57.215] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3225 ms
-[16Nov2025 09:39:57.383] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[16Nov2025 09:39:57.383] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[16Nov2025 09:39:57.470] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[16Nov2025 09:40:02.045] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[16Nov2025 09:40:02.122] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:cac34ce6] logged in with entity id 19 at (2035.8053164980436, 127.6183020148442, 1269.010751505213)
-[16Nov2025 09:40:02.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[16Nov2025 09:40:02.561] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 304 advancements
-[16Nov2025 09:40:02.567] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 433.0 μs
-[16Nov2025 09:40:02.570] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 614.8 μs
-[16Nov2025 09:40:02.603] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 546.0 μs
-[16Nov2025 09:42:49.242] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[16Nov2025 09:42:49.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16Nov2025 09:42:49.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16Nov2025 09:42:49.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16Nov2025 09:42:49.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[16Nov2025 09:42:49.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[16Nov2025 09:42:49.910] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[16Nov2025 09:42:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[16Nov2025 09:42:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[16Nov2025 09:42:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[16Nov2025 09:42:50.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16Nov2025 09:42:50.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16Nov2025 09:42:50.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16Nov2025 09:42:50.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[16Nov2025 09:42:50.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16Nov2025 09:42:50.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16Nov2025 09:42:50.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16Nov2025 09:42:51.630] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[16Nov2025 11:06:14.574] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.65, --assetIndex, 17, --assetsDir, C:\\Users\\Sabien\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.neoForgeVersion, 21.1.65, --fml.fmlVersion, 4.0.24, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[16Nov2025 11:06:14.578] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[16Nov2025 11:06:14.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[16Nov2025 11:06:14.678] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Sabien\MCreatorWorkspaces\ars_structerize\run\config\fml.toml is not correct. Correcting
+[16Nov2025 11:06:14.679] [main/INFO] [net.neoforged.fml.loading.FMLConfig/CORE]: Incorrect key [disableConfigWatcher] was corrected from null to false
+[16Nov2025 11:06:14.705] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[16Nov2025 11:06:14.803] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[16Nov2025 11:06:15.057] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[16Nov2025 11:06:15.157] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Sabien/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23131!/ Service=ModLauncher Env=CLIENT
+[16Nov2025 11:06:15.475] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[16Nov2025 11:06:15.555] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[16Nov2025 11:06:16.519] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.1.65, --gameDir, ., --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[16Nov2025 11:06:18.106] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 427 milliseconds
+[16Nov2025 11:06:18.259] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16Nov2025 11:06:22.904] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Nov2025 11:06:22.905] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Nov2025 11:06:22.907] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16Nov2025 11:06:22.911] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16Nov2025 11:06:22.912] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Nov2025 11:06:23.059] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/MCreatorWorkspaces/ars_structerize/build/moddev/artifacts/neoforge-21.1.65-minecraft.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[16Nov2025 11:06:23.060] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/MCreatorWorkspaces/ars_structerize/build/moddev/artifacts/neoforge-21.1.65-minecraft.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[16Nov2025 11:06:23.087] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16Nov2025 11:06:23.095] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[16Nov2025 11:06:23.188] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[16Nov2025 11:06:23.405] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.65, for MC 1.21.1
+[16Nov2025 11:06:24.091] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[16Nov2025 11:06:24.227] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/ars_structurize
+[16Nov2025 11:06:24.340] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[16Nov2025 11:06:24.498] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[16Nov2025 11:06:25.692] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[16Nov2025 11:06:25.692] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16Nov2025 11:06:25.737] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 27G2G3 (NVIDIA High Definition Audio)
+[16Nov2025 11:06:25.737] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[16Nov2025 11:06:25.836] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[16Nov2025 11:06:25.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[16Nov2025 11:06:25.844] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[16Nov2025 11:06:25.844] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[16Nov2025 11:06:25.844] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[16Nov2025 11:06:25.847] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[16Nov2025 11:06:25.847] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[16Nov2025 11:06:25.847] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[16Nov2025 11:06:25.848] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16Nov2025 11:06:26.052] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[16Nov2025 11:06:26.054] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16Nov2025 11:06:26.054] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16Nov2025 11:06:26.054] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[16Nov2025 11:06:26.054] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[16Nov2025 11:06:26.081] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16Nov2025 11:06:26.136] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[16Nov2025 11:06:31.577] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -5,7 +5,7 @@
   "max_distance_from_center": 64,
   "spawn_overrides": {},
   "step": "underground_structures",
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "encapsulate",
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
