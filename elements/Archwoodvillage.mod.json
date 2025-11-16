@@ -1,0 +1,165 @@
+{
+  "_fv": 66,
+  "_type": "structure",
+  "definition": {
+    "structure": "sourcestone_well",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 28,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "#ars_nouveau:archwood_biome"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 7,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "streets",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "sourcestone_path",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "sourcestone_path_2",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "sourcestone_path_3",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "houses",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "vexing_house_1",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.WOOL#0"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_house_2",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.WOOL#0"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_house_4",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.WOOL#0"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_house_5",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.WOOL#0"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_house_6",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.WOOL#0"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "sourceberry_sack_pile_1",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "sourceberry_sack_pile_2",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_garden_1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_garden_2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "lamps",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "blazing_lamp",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "fourishing_lamp",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "vexing_lamp",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "cascading_lamp",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

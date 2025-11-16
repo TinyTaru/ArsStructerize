@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ars_structurize:drygmy_pens",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 35,
+    "salt": 1343359348
+  }
+}

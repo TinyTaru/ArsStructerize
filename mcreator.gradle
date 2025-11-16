@@ -1,0 +1,25 @@
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+	 maven { 
+	url 'https://maven.blamejared.com' 
+	}
+	}
+dependencies {
+    implementation fg.deobf("curse.maven:ars-nouveau-401955:5894609")
+	implementation fg.deobf("curse.maven:curios-309927:6058834")
+	implementation fg.deobf("curse.maven:geckolib-388172:6027567")
+	implementation fg.deobf("curse.maven:patchouli-306770:4966125")
+}
+
+minecraft {
+    runs {
+        client {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+    }
+}
+
+

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ars_structurize:wixie_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 20,
+    "salt": 1421231620
+  }
+}

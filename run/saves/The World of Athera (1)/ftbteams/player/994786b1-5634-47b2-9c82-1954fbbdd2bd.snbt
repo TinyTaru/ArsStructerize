@@ -1,0 +1,17 @@
+{
+	id: "994786b1-5634-47b2-9c82-1954fbbdd2bd"
+	type: "player"
+	player_name: "ArgoArginstin"
+	ranks: {
+		994786b1-5634-47b2-9c82-1954fbbdd2bd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ArgoArginstin"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59C7FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

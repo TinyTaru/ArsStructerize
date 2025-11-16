@@ -1,0 +1,169 @@
+{
+  "mod_elements": [
+    {
+      "name": "Vexingtreeloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vexingtreeloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structerize/loot_tables/chests/vexingtreeloot.json"
+        ]
+      }
+    },
+    {
+      "name": "Giantarchwoodtreevexing",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giantarchwoodtreevexing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/giantarchwoodtreevexing.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/giantarchwoodtreevexing.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/giantarchwoodtreevexing.json"
+        ]
+      }
+    },
+    {
+      "name": "SourceBerryFarm",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "source_berry_farm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/source_berry_farm.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/source_berry_farm.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/source_berry_farm.json"
+        ]
+      }
+    },
+    {
+      "name": "SourceBerryFarmloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "source_berry_farmloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structerize/loot_tables/chests/source_berry_farmloot.json"
+        ]
+      }
+    },
+    {
+      "name": "WixieHut",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wixie_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/wixie_hut.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/wixie_hut.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/wixie_hut.json"
+        ]
+      }
+    },
+    {
+      "name": "BookwrymLibrary",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookwrym_library",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/bookwrym_library.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/bookwrym_library.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/bookwrym_library.json"
+        ]
+      }
+    },
+    {
+      "name": "GolemGeode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_geode",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure/golem_geode.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/golem_geode.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/golem_geode.json"
+        ]
+      }
+    },
+    {
+      "name": "DrygmyPens",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drygmy_pens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/drygmy_pens.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/drygmy_pens.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/drygmy_pens.json"
+        ]
+      }
+    },
+    {
+      "name": "Archwoodvillage",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archwoodvillage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage_houses.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage_lamps.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/archwoodvillage.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage_streets.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/archwoodvillage.json"
+        ]
+      }
+    },
+    {
+      "name": "GolemGeodeLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "golem_geode_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/loot_tables/blocks/golem_geode_loot.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ars_structurize",
+    "modName": "Ars Structurize",
+    "version": "1.0.0",
+    "author": "Sabien",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.arsstructerized"
+  },
+  "mcreatorVersion": 202400232117
+}
