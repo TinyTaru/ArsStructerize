@@ -8,7 +8,7 @@
       "registry_name": "vexingtreeloot",
       "metadata": {
         "files": [
-          "src/main/resources/data/ars_structerize/loot_tables/chests/vexingtreeloot.json"
+          "src/main/resources/data/ars_structurize/loot_table/chests/vexingtreeloot.json"
         ]
       }
     },
@@ -67,25 +67,80 @@
       }
     },
     {
-      "name": "WhirlsprigClearing",
+      "name": "BookwrymLibrary",
       "type": "structure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "whirlsprig_clearing",
+      "registry_name": "bookwrym_library",
       "metadata": {
         "files": [
-          "src/main/resources/data/ars_structurize/worldgen/structure/whirlsprig_clearing.json",
-          "src/main/resources/data/ars_structurize/worldgen/template_pool/whirlsprig_clearing.json",
-          "src/main/resources/data/ars_structurize/worldgen/structure_set/whirlsprig_clearing.json"
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/bookwrym_library.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/bookwrym_library.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/bookwrym_library.json"
+        ]
+      }
+    },
+    {
+      "name": "GolemGeode",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_geode",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure/golem_geode.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/golem_geode.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/golem_geode.json"
+        ]
+      }
+    },
+    {
+      "name": "DrygmyPens",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drygmy_pens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/drygmy_pens.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/drygmy_pens.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/drygmy_pens.json"
+        ]
+      }
+    },
+    {
+      "name": "Archwoodvillage",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archwoodvillage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage_houses.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage_lamps.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure_set/archwoodvillage.json",
+          "src/main/resources/data/ars_structurize/worldgen/template_pool/archwoodvillage_streets.json",
+          "src/main/resources/data/ars_structurize/worldgen/structure/archwoodvillage.json"
+        ]
+      }
+    },
+    {
+      "name": "GolemGeodeLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "golem_geode_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ars_structurize/loot_tables/blocks/golem_geode_loot.json"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {
-    "BIOMES:ars_nouveau:archwood_biome": []
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {}
@@ -106,9 +161,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.arsstructerized"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400452410
 }

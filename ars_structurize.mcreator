@@ -8,7 +8,7 @@
       "registry_name": "vexingtreeloot",
       "metadata": {
         "files": [
-          "src/main/resources/data/ars_structerize/loot_tables/chests/vexingtreeloot.json"
+          "src/main/resources/data/ars_structurize/loot_table/chests/vexingtreeloot.json"
         ]
       }
     },

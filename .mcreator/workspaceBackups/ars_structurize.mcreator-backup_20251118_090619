@@ -160,12 +160,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "arsnouve"
-    ],
-    "currentGenerator": "forge-1.20.1",
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.arsstructerized"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400452410
 }
